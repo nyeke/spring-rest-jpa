@@ -18,10 +18,10 @@ public class UsuarioEntity {
     @Column(name = "id")
     private Long idUsuario;
 
-    @Column(name = "username")
+    @Column(name = "user")
     private String user;
 
-    @Column(name  = "password")
+    @Column(name  = "pass")
     private String pass;
 
 }
